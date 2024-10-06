@@ -1,0 +1,46 @@
+.app {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidebar {
+    width: 200px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #ccc;
+  }
+  
+  .sidebar .node-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: grab;
+    text-align: center;
+  }
+  
+  .flow-canvas {
+    flex-grow: 1;
+    background-color: #f0f0f0;
+    position: relative;
+  }
+  
+  .input-node {
+    padding: 10px;
+    background-color: #cee4f2;
+    border-radius: 5px;
+  }
+  
+  .default-node {
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .output-node {
+    padding: 10px;
+    background-color: #f2dede;
+    border-radius: 5px;
+  }
+  
