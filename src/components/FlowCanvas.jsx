@@ -7,7 +7,6 @@ const InputNode = ({ data }) => {
   return (
     <div className="input-node">
       <div>{data.label}</div>
-      {/* Output handle (port) at the bottom */}
       <Handle type="source" position="bottom" id="output" style={{ background: '#555' }} />
     </div>
   );
@@ -17,9 +16,7 @@ const DefaultNode = ({ data }) => {
   return (
     <div className="default-node">
       <div>{data.label}</div>
-      {/* Input handle (port) at the top */}
       <Handle type="target" position="top" id="input" style={{ background: '#555' }} />
-      {/* Output handle (port) at the bottom */}
       <Handle type="source" position="bottom" id="output" style={{ background: '#555' }} />
     </div>
   );
@@ -29,7 +26,6 @@ const OutputNode = ({ data }) => {
   return (
     <div className="output-node">
       <div>{data.label}</div>
-      {/* Input handle (port) at the top */}
       <Handle type="target" position="top" id="input" style={{ background: '#555' }} />
     </div>
   );
